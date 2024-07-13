@@ -3,7 +3,7 @@
 
 	async function fetchData() {
 		try {
-			const res = await fetch('https://localhost:8000/api/random');
+			const res = await fetch('https://stingray-app-5kwxz.ondigitalocean.app/api/random');
 			const data = await res.json();
 			response = data;
 			console.log(data);

@@ -3,7 +3,7 @@
 
 	async function fetchData() {
 		try {
-			const res = await fetch('http://www.localhost:8000/api/random');
+			const res = await fetch('http://0.0.0.0:8000/api/random');
 			const data = await res.json();
 			response = data;
 			console.log(data);

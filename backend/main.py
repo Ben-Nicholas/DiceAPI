@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/api/random")
+@app.get("/random")
 def random_number():
     return random.randint(1, 6)
 
